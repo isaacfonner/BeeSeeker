@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Wheat",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Corn",
+  "eventList":[],
   "managed":true,
-  "name":"Wheat",
+  "name":"Corn",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite4",
-    "path":"sprites/Sprite4/Sprite4.yy",
+    "name":"CornSprite",
+    "path":"sprites/CornSprite/CornSprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,

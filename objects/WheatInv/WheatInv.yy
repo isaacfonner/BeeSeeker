@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"Wheat",
+  "%Name":"WheatInv",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Wheat",
+  "name":"WheatInv",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
