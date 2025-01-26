@@ -9,18 +9,31 @@ if (global.invSprites[num].amount = 0){
 global.invSprites[num].item = ""	
 }
 
-if (global.invSprites[num].item = "Wheat"){
-var wheat_instance = instance_create_layer(x+25, y+25, "UI", WheatInv);
-wheat_instance.layer = layer_get_id("Inv");
-wheat_instance.image_xscale = 0.25;
-wheat_instance.image_yscale = 0.25
-show_debug_message(wheat_instance.object_index)
+if (global.invSprites[num].item = "CherrySeeds"){
+var cherry_instance = instance_create_layer(x+36, y+40, "UI", CherrySeeds);
+cherry_instance.layer = layer_get_id("Inv");
+cherry_instance.image_xscale = 4;
+cherry_instance.image_yscale = 4
 }
-if (global.invSprites[num].item = "Corn"){
-var corn_instance = instance_create_layer(x+35, y+45, "UI", CornInv);
-corn_instance.layer = layer_get_id("Inv");
-corn_instance.image_xscale = 5;
-corn_instance.image_yscale = 5
+if (global.invSprites[num].item = "PotatoSeeds"){
+var potato_instance = instance_create_layer(x+36, y+40, "UI", PotatoSeeds);
+potato_instance.layer = layer_get_id("Inv");
+potato_instance.image_xscale = 4;
+potato_instance.image_yscale = 4
+}
+
+if (global.invSprites[num].item = "Potato"){
+var potatoinv_instance = instance_create_layer(x+36, y+40, "UI", PotatoInv);
+potatoinv_instance.layer = layer_get_id("Inv");
+potatoinv_instance.image_xscale = 4;
+potatoinv_instance.image_yscale = 4
+}
+
+if (global.invSprites[num].item = "Cherry"){
+var cherryinv_instance = instance_create_layer(x+36, y+40, "UI", CherryBushInv);
+cherryinv_instance.layer = layer_get_id("Inv");
+cherryinv_instance.image_xscale = 4;
+cherryinv_instance.image_yscale = 4
 }
 
 if (global.inventorySelected = num){
