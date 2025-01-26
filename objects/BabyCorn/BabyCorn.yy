@@ -1,13 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"Object3",
+  "%Name":"BabyCorn",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Object3",
+  "name":"BabyCorn",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -32,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite3",
-    "path":"sprites/Sprite3/Sprite3.yy",
+    "name":"CornSeedling",
+    "path":"sprites/CornSeedling/CornSeedling.yy",
   },
   "spriteMaskId":null,
   "visible":true,

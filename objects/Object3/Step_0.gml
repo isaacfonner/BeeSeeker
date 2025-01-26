@@ -5,6 +5,9 @@ for (var i = 0; i < array_length(global.invSprites); i++) {
     }
 }
 
+if (global.invSprites[num].amount = 0){
+global.invSprites[num].item = ""	
+}
 
 if (global.invSprites[num].item = "Wheat"){
 var wheat_instance = instance_create_layer(x+25, y+25, "UI", WheatInv);
