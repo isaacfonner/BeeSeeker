@@ -17,10 +17,10 @@ wheat_instance.image_yscale = 0.25
 show_debug_message(wheat_instance.object_index)
 }
 if (global.invSprites[num].item = "Corn"){
-var corn_instance = instance_create_layer(x+35, y+35, "UI", CornInv);
+var corn_instance = instance_create_layer(x+35, y+45, "UI", CornInv);
 corn_instance.layer = layer_get_id("Inv");
-corn_instance.image_xscale = 0.2;
-corn_instance.image_yscale = 0.2
+corn_instance.image_xscale = 5;
+corn_instance.image_yscale = 5
 }
 
 if (global.inventorySelected = num){

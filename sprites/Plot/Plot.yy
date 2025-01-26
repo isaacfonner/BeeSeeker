@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"Plot",
   "bboxMode":0,
-  "bbox_bottom":31,
+  "bbox_bottom":379,
   "bbox_left":0,
-  "bbox_right":31,
+  "bbox_right":381,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -12,14 +12,14 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0852a538-e305-48d6-8f48-261490cf0ffc","name":"0852a538-e305-48d6-8f48-261490cf0ffc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"1c2b0c06-0ef4-46bb-a62e-3d91d25ef40c","name":"1c2b0c06-0ef4-46bb-a62e-3d91d25ef40c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":32,
+  "height":380,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"ed985dfb-574c-41f9-8b65-c5e713975488","blendMode":0,"displayName":"default","isLocked":false,"name":"ed985dfb-574c-41f9-8b65-c5e713975488","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"12257792-a42e-4782-9bdb-3b0b8d75de21","blendMode":0,"displayName":"default","isLocked":false,"name":"12257792-a42e-4782-9bdb-3b0b8d75de21","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"Plot",
   "nineSlice":null,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0852a538-e305-48d6-8f48-261490cf0ffc","path":"sprites/Plot/Plot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"6639afaa-2f69-4aa3-a9f5-cd182585fcfe","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1c2b0c06-0ef4-46bb-a62e-3d91d25ef40c","path":"sprites/Plot/Plot.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"fda29dd7-9c81-4011-99a8-c10e40d7e604","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":32,
+  "width":382,
 }

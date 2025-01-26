@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"CornSeedling",
-    "path":"sprites/CornSeedling/CornSeedling.yy",
+    "name":"PotatoSeedling",
+    "path":"sprites/PotatoSeedling/PotatoSeedling.yy",
   },
   "spriteMaskId":null,
   "visible":true,

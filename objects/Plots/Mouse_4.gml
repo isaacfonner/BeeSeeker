@@ -26,8 +26,8 @@ global.invSprites[invnum].amount -= 1
 var corn_instance = instance_create_layer(placeX+12, placeY+20, "Main", BabyCorn);
 
 corn_instance.layer = layer_get_id("Crops");
-corn_instance.image_xscale = 0.12;
-corn_instance.image_yscale = 0.12
+corn_instance.image_xscale = 3.8;
+corn_instance.image_yscale = 3.8
 global.plots[num].full = true
 }
 }}

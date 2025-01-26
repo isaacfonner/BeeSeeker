@@ -1,27 +1,27 @@
 {
   "$GMSprite":"",
-  "%Name":"CornSeedling",
+  "%Name":"Deco1",
   "bboxMode":0,
-  "bbox_bottom":299,
-  "bbox_left":8,
-  "bbox_right":290,
-  "bbox_top":24,
+  "bbox_bottom":39,
+  "bbox_left":0,
+  "bbox_right":139,
+  "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"5a734548-d196-4cbc-b4b7-ce70e545b89a","name":"5a734548-d196-4cbc-b4b7-ce70e545b89a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"321539da-40f7-47d4-a3d1-a6dcbd3c980c","name":"321539da-40f7-47d4-a3d1-a6dcbd3c980c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
-  "height":300,
+  "height":40,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"7207d1c5-e0b9-43d9-bc45-1a51b3e5e1c5","blendMode":0,"displayName":"default","isLocked":false,"name":"7207d1c5-e0b9-43d9-bc45-1a51b3e5e1c5","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"0664edb1-5149-452d-a9b8-29e84f430675","blendMode":0,"displayName":"default","isLocked":false,"name":"0664edb1-5149-452d-a9b8-29e84f430675","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"CornSeedling",
+  "name":"Deco1",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"CornSeedling",
+    "%Name":"Deco1",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"CornSeedling",
+    "name":"Deco1",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5a734548-d196-4cbc-b4b7-ce70e545b89a","path":"sprites/CornSeedling/CornSeedling.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"911948cd-9ee0-4690-9920-f4173cad37b0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"321539da-40f7-47d4-a3d1-a6dcbd3c980c","path":"sprites/Deco1/Deco1.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"039b40b3-223b-4ddd-b60f-0092fe69594f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":300,
+  "width":140,
 }
