@@ -15,5 +15,8 @@ global.invSprites[0].amount = "9"
 global.invSprites[1].item = "CherrySeeds"
 global.invSprites[1].full = true
 global.invSprites[1].amount = "9"
+global.invSprites[2].full = true
+global.invSprites[2].amount = "3"
+global.invSprites[2].item = "Coin"
 global.invInitDone = true
 }

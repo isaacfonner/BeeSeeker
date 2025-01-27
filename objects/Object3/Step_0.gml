@@ -29,6 +29,13 @@ potatoinv_instance.image_xscale = 4;
 potatoinv_instance.image_yscale = 4
 }
 
+if (global.invSprites[num].item = "Coin"){
+var coininv_instance = instance_create_layer(x+30, y+35, "UI", Coin);
+coininv_instance.layer = layer_get_id("Inv");
+coininv_instance.image_xscale = 3.5;
+coininv_instance.image_yscale = 3.5
+}
+
 if (global.invSprites[num].item = "Cherry"){
 var cherryinv_instance = instance_create_layer(x+36, y+40, "UI", CherryBushInv);
 cherryinv_instance.layer = layer_get_id("Inv");
