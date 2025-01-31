@@ -51,6 +51,7 @@
     {"id":{"name":"PotatoInv","path":"objects/PotatoInv/PotatoInv.yy",},},
     {"id":{"name":"PotatoSeeds","path":"objects/PotatoSeeds/PotatoSeeds.yy",},},
     {"id":{"name":"SellBtn","path":"objects/SellBtn/SellBtn.yy",},},
+    {"id":{"name":"Shop","path":"objects/Shop/Shop.yy",},},
     {"id":{"name":"Tree","path":"objects/Tree/Tree.yy",},},
     {"id":{"name":"BuyRoom","path":"rooms/BuyRoom/BuyRoom.yy",},},
     {"id":{"name":"Farm","path":"rooms/Farm/Farm.yy",},},

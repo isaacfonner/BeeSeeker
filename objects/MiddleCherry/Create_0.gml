@@ -11,4 +11,3 @@ for (var i = 0; i < array_length(global.middlecherry); i++) {
 }
 
 global.middlecherry[num].timer = 0
-global.middlecherry[num].creator = global.currentCreator

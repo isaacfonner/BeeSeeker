@@ -4,17 +4,12 @@ savedItem[i] = global.invSprites[i].item
 savedAmount[i] = global.invSprites[i].amount
 savedFull[i] = global.invSprites[i].full
 }   
-for (var i = 0; i < array_length(global.plots); i++) {
-savedPlotCrop[i] = global.plots[i].cropName
-savedPlotFull[i] = global.plots[i].full
-}  
 var _struct = {
 	invSelected: global.inventorySelected,
 	savedItem: savedItem,
 	savedAmount: savedAmount,
-	savedFull: savedFull,
-	savedPlotCrop: savedPlotCrop,
-	savedPlotFull: savedPlotFull
+	savedFull: savedFull
+	
 };
 var _string = json_stringify(_struct);
 var _file = file_text_open_write("save.txt")
@@ -32,8 +27,6 @@ function load_game(){
 	global.savedItem = _struct.savedItem
 	global.savedAmount = _struct.savedAmount
 	global.savedFull = _struct.savedFull
-	global.savedPlotCrop = _struct.savedPlotCrop
-	global.savedPlotFull = _struct.savedPlotFull
 	show_debug_message(global.savedItem)
 	file_text_close(_file)
 	}
