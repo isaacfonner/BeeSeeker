@@ -1,0 +1,1 @@
+var global.saveCooldown = 0

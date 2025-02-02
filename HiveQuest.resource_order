@@ -1,0 +1,18 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"BackButton","order":1,"path":"objects/BackButton/BackButton.yy",},
+    {"name":"CherryButton","order":5,"path":"objects/CherryButton/CherryButton.yy",},
+    {"name":"CherrySeedsBuyIcon","order":3,"path":"objects/CherrySeedsBuyIcon/CherrySeedsBuyIcon.yy",},
+    {"name":"PotatButton","order":4,"path":"objects/PotatButton/PotatButton.yy",},
+    {"name":"PotatoSeedsBuyIcon","order":2,"path":"objects/PotatoSeedsBuyIcon/PotatoSeedsBuyIcon.yy",},
+    {"name":"PotatoStore","order":6,"path":"objects/PotatoStore/PotatoStore.yy",},
+    {"name":"ThreeCoins","order":7,"path":"objects/ThreeCoins/ThreeCoins.yy",},
+    {"name":"SellRoom","order":1,"path":"rooms/SellRoom/SellRoom.yy",},
+    {"name":"saveInv","order":1,"path":"scripts/saveInv/saveInv.yy",},
+    {"name":"Sprite22","order":1,"path":"sprites/Sprite22/Sprite22.yy",},
+    {"name":"Sprite23","order":2,"path":"sprites/Sprite23/Sprite23.yy",},
+    {"name":"Sprite24","order":3,"path":"sprites/Sprite24/Sprite24.yy",},
+    {"name":"threecoisn","order":4,"path":"sprites/threecoisn/threecoisn.yy",},
+  ],
+}
