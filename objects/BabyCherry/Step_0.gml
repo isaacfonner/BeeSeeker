@@ -17,14 +17,15 @@ for (var i = 0; i < array_length(global.plots); i++) {
       
     }
 }
+instance_destroy()
+array_delete(global.babycherry, num, 1)
 global.plots[plotnum].cropName = "MiddleCherry"
 var mcherry_instance = instance_create_layer(x-5, y-10, "Main", MiddleCherry);
 mcherry_instance.creator = creator
 mcherry_instance.layer = layer_get_id("Crops");
 mcherry_instance.image_xscale = 3.2;
 mcherry_instance.image_yscale = 3.2
-array_delete(global.babycherry, num, 1)
-instance_destroy()
 save_game()
 }
 
+show_debug_message(timer)

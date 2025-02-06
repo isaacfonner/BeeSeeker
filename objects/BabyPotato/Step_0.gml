@@ -17,6 +17,7 @@ for (var i = 0; i < array_length(global.plots); i++) {
       
     }
 }
+array_delete(global.babypotato, num, 1)
 instance_destroy()
 global.plots[plotnum].crop = instance_create_layer(x-2, y-8, "Main", Potato);
 global.plots[plotnum].crop.creator = global.plots[plotnum].id
@@ -24,8 +25,8 @@ global.plots[plotnum].crop.layer = layer_get_id("Crops");
 global.plots[plotnum].crop.image_xscale = 4;
 global.plots[plotnum].crop.image_yscale = 4
 global.plots[plotnum].cropName = "Potato"
-array_delete(global.babypotato, num, 1)
-save_game()
 }
+
+show_debug_message(timer)
 
 

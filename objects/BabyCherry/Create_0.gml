@@ -10,4 +10,8 @@ for (var i = 0; i < array_length(global.babycherry); i++) {
     }
 }
 
+if (!variable_global_exists("savedCherryTimer")){
 global.babycherry[num].timer = 0
+} else {
+global.babycherry[num].timer = global.savedCherryTimer[num]	
+}
