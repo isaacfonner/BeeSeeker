@@ -10,7 +10,7 @@ show_debug_message(global.babypotato[num].timer)
 global.babypotato[num].timer += 1
 
 
-if (global.babypotato[num].timer >= 100){
+if (global.babypotato[num].timer >= 1000){
 for (var i = 0; i < array_length(global.plots); i++) {
     if (global.plots[i].id == creator) {
     var plotnum = i

@@ -10,7 +10,7 @@ show_debug_message(global.babycherry[num].timer)
 global.babycherry[num].timer += 1
 
 
-if (global.babycherry[num].timer >= 150){
+if (global.babycherry[num].timer >= 800){
 for (var i = 0; i < array_length(global.plots); i++) {
     if (global.plots[i].id == creator) {
     var plotnum = i

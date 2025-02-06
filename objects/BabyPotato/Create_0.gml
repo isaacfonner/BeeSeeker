@@ -1,3 +1,4 @@
+global.babypotato = []
 for (var i = 0; i < instance_number(BabyPotato); ++i;)
 {
     global.babypotato[i] = instance_find(BabyPotato,i);

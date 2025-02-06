@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"SellBtn",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Object29",
+  "eventList":[],
   "managed":true,
-  "name":"SellBtn",
+  "name":"Object29",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"SellSprite",
-    "path":"sprites/SellSprite/SellSprite.yy",
+    "name":"Sprite28",
+    "path":"sprites/Sprite28/Sprite28.yy",
   },
   "spriteMaskId":null,
   "visible":true,

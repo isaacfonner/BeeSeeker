@@ -10,7 +10,7 @@ show_debug_message(global.middlecherry[num].timer)
 global.middlecherry[num].timer += 1
 
 
-if (global.middlecherry[num].timer >= 100){
+if (global.middlecherry[num].timer >= 600){
 for (var i = 0; i < array_length(global.plots); i++) {
     if (global.plots[i].id == creator) {
     var plotnum = i
