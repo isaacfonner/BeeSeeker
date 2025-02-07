@@ -1,4 +1,4 @@
-if (room = 1){
+if (room = 1 or room = BeeRoom){
 
 } else {
 	save_inv()

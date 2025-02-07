@@ -1,3 +1,8 @@
+if (variable_global_exists("lastCamera")){
+	difference = camera_get_view_x(view_camera[0]) - global.lastCamera
+	x = x + difference
+}
+
 for (var i = 0; i < array_length(global.invSprites); i++) {
     if (global.invSprites[i].id == id) {
     var num = i
