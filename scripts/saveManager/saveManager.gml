@@ -32,6 +32,12 @@ savedCherryTimer = undefined
 savedCherryTimer = undefined	
 }
 
+if (variable_global_exists("BeeHive")) {
+for (var i = 0; i < array_length(global.BeeHive); i++) {
+savedBeeHoney[i] = global.BeeHive[i].honey
+savedBees[i] = global.BeeHive[i].bees
+}}
+
 if (variable_global_exists("middlecherry")) {
 for (var i = 0; i < array_length(global.middlecherry); i++) {
 savedMidCherryTimer[i] = global.middlecherry[i].timer
@@ -42,6 +48,22 @@ savedMidCherryTimer = undefined
 } else {
 savedMidCherryTimer = undefined	
 }
+if (!is_undefined(savedPotatoTimer)){
+if (array_length(savedPotatoTimer) < array_length(global.plots)){
+for (var i = array_length(savedPotatoTimer); i < array_length(global.plots); i++) {
+savedPotatoTimer[i] = 0
+}}}
+if (!is_undefined(savedCherryTimer)){
+if (array_length(savedCherryTimer) < array_length(global.plots)){
+for (var i = array_length(savedCherryTimer); i < array_length(global.plots); i++) {
+savedCherryTimer[i] = 0
+}}}
+if (!is_undefined(savedMidCherryTimer)){
+if (array_length(savedMidCherryTimer) < array_length(global.plots)){
+for (var i = array_length(savedMidCherryTimer); i < array_length(global.plots); i++) {
+savedMidCherryTimer[i] = 0
+}}}
+
 
 var _struct = {
 	invSelected: global.inventorySelected,
@@ -52,7 +74,9 @@ var _struct = {
 	savedPlotFull: savedPlotFull,
 	savedPotatoTimer: savedPotatoTimer,
 	savedCherryTimer: savedCherryTimer,
-	savedMidCherryTimer: savedMidCherryTimer
+	savedMidCherryTimer: savedMidCherryTimer,
+	savedBeeHoney: savedBeeHoney,
+	savedBees: savedBees
 };
 var _string = json_stringify(_struct);
 var _file = file_text_open_write("save.txt")
@@ -75,6 +99,8 @@ function load_game(){
 	global.savedPotatoTimer = _struct.savedPotatoTimer
 	global.savedCherryTimer = _struct.savedCherryTimer
 	global.savedMidCherryTimer = _struct.savedMidCherryTimer
+	global.savedBeeHoney = _struct.savedBeeHoney
+	global.savedBees = _struct.savedBees
 	show_debug_message(global.savedItem)
 	file_text_close(_file)
 	}

@@ -1,3 +1,4 @@
+draw_set_font(-1);
 draw_self()
 if (is_undefined(global.invSprites)){
 	
