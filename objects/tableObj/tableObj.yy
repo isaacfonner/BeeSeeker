@@ -1,13 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"BeeHive",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"tableObj",
+  "eventList":[],
   "managed":true,
-  "name":"BeeHive",
+  "name":"tableObj",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -32,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"BeehiveSprite",
-    "path":"sprites/BeehiveSprite/BeehiveSprite.yy",
+    "name":"table",
+    "path":"sprites/table/table.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -16,7 +16,12 @@ var _struct = {
 	savedAmount: savedAmount,
 	savedFull: savedFull,
 	savedPlotCrop: savedPlotCrop,
-	savedPlotFull: savedPlotFull
+	savedPlotFull: savedPlotFull,
+	savedPotatoTimer: global.savedPotatoTimer,
+	savedCherryTimer: global.savedCherryTimer,
+	savedMidCherryTimer: global.savedMidCherryTimer,
+	savedBeeHoney: global.savedBeeHoney,
+	savedBees: global.savedBees
 };
 var _string = json_stringify(_struct);
 var _file = file_text_open_write("save.txt")

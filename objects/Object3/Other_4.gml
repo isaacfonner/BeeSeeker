@@ -1,3 +1,4 @@
+global.invSprites = []
 global.inventorySelected = 3
 
 if(file_exists("save.txt")){

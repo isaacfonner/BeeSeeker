@@ -56,13 +56,21 @@ cherryinv_instance.image_xscale = 4;
 cherryinv_instance.image_yscale = 4
 }
 
+if (global.invSprites[num].item = "Honeycomb"){
+var cherryinv_instance = instance_create_layer(x+36, y+40, "UI", HoneycombInv);
+cherryinv_instance.layer = layer_get_id("Inv");
+cherryinv_instance.image_xscale = 0.065;
+cherryinv_instance.image_yscale = 0.065
+}
+
+if (room != BeeRoom){
 if (global.inventorySelected = num){
 y = 630
 
 } else {
 y = 640
 }
-
+}
 if (keyboard_check(ord(num))){
 	global.inventorySelected = num - 1
 }
