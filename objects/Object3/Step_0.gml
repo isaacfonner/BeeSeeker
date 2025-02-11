@@ -1,7 +1,9 @@
 if (variable_global_exists("lastCamera")){
+	if (room = Farm){
+	if (instance_find(Farmer, 0).x != instance_find(Farmer, 0).xstart) {
 	difference = camera_get_view_x(view_camera[0]) - global.lastCamera
 	x = x + difference
-}
+}}}
 
 for (var i = 0; i < array_length(global.invSprites); i++) {
     if (global.invSprites[i].id == id) {

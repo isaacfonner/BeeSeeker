@@ -1,6 +1,6 @@
-if (room = 1){
+if (room = 2){
 
 } else {
 	save_inv()
 }
-room_goto(0)
+room_goto(1)

@@ -1,6 +1,8 @@
 global.invSprites = []
 global.inventorySelected = 3
 
+x = xstart
+y = ystart
 if(file_exists("save.txt")){
 	load_game()
 	for (var i = 0; i < instance_number(Object3); ++i;)
