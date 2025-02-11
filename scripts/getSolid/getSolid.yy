@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"getSolid",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"getSolid",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
