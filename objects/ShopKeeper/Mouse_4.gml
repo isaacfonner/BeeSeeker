@@ -1,0 +1,1 @@
+createDialogue("Hello World", spr_shopkeeper)

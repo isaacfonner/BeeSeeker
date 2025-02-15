@@ -1,3 +1,5 @@
+if (variable_global_exists("dialogue")){
+if (global.dialogue == false){
  W = keyboard_check(ord("W"))
  A = keyboard_check(ord("A"))
  S = keyboard_check(ord("S"))
@@ -18,7 +20,8 @@ x += 24
 x -=8
 }
 }
-if (W)if (!place_meeting(x, y - 4, getSolid())) y -= 4;
-if (S)if (!place_meeting(x, y + 4, getSolid())) y += 4;
+if (W)if (!place_meeting(x, y - 8, getSolid())) y -= 8;
+if (S)if (!place_meeting(x, y + 8, getSolid())) y += 8;
 
-
+}
+}

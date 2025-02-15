@@ -1,3 +1,3 @@
 function getSolid(){
-return [Plots, Object3, Tree, Shop, BeeHive]
+return [Plots, Object3, Tree, Shop, BeeHive, Bench, ShopKeeper]
 }
