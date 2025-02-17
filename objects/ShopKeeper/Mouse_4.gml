@@ -1,3 +1,5 @@
 global.dialNum = 0
-dialtext = ["Welcome to my shop!", "Do you see anything you want to buy?"]
-createDialogue(dialtext, spr_shopkeeper, false)
+global.dialOwner = "Shopkeeper"
+dialtext = ["Welcome to my shop!"]
+
+createDialogue(dialtext, spr_shopkeeper, true)

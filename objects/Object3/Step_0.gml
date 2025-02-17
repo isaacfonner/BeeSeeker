@@ -31,7 +31,7 @@ cherry_instance.image_xscale = 4;
 cherry_instance.image_yscale = 4
 }
 if (global.invSprites[num].item = "PotatoSeeds"){
-var potato_instance = instance_create_layer(x+36, y+40, "UI", PotatoSeeds);
+var potato_instance = instance_create_layer(x+30, y+43, "UI", PotatoSeeds);
 potato_instance.layer = layer_get_id("Inv");
 potato_instance.image_xscale = 4;
 potato_instance.image_yscale = 4
