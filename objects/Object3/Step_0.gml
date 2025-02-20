@@ -30,14 +30,14 @@ global.invSprites[num].full = false
 
 if (global.invSprites[num].item = "CherrySeeds"){
 	// code for rendiner cheeryseeds
-var cherry_instance = instance_create_layer(x+36, y+40, "UI", CherrySeeds);
+var cherry_instance = instance_create_layer(x+36, y+45, "UI", CherrySeeds);
 cherry_instance.layer = layer_get_id("Inv");
 cherry_instance.image_xscale = 4;
 cherry_instance.image_yscale = 4
 }
 if (global.invSprites[num].item = "PotatoSeeds"){
 		// code for rendiner potatoseeds
-var potato_instance = instance_create_layer(x+30, y+43, "UI", PotatoSeeds);
+var potato_instance = instance_create_layer(x+35, y+43, "UI", PotatoSeeds);
 potato_instance.layer = layer_get_id("Inv");
 potato_instance.image_xscale = 4;
 potato_instance.image_yscale = 4
@@ -45,7 +45,7 @@ potato_instance.image_yscale = 4
 
 if (global.invSprites[num].item = "Potato"){
 		// code for rendiner potatos
-var potatoinv_instance = instance_create_layer(x+36, y+40, "UI", PotatoInv);
+var potatoinv_instance = instance_create_layer(x+36, y+50, "UI", PotatoInv);
 potatoinv_instance.layer = layer_get_id("Inv");
 potatoinv_instance.image_xscale = 4;
 potatoinv_instance.image_yscale = 4
