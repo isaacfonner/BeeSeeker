@@ -1,3 +1,4 @@
+// same code as babycherry go read those comments
 for (var i = 0; i < instance_number(MiddleCherry); ++i;)
 {
     global.middlecherry[i] = instance_find(MiddleCherry,i);

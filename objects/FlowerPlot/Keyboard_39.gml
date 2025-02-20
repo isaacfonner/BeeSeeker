@@ -1,6 +1,6 @@
+// still wip, currently the code is exactly the same as crop plots so just read those comments
 if(file_exists("save.txt")){
 	load_game()
-	// game loading code
 	for (var i = 0; i < instance_number(Plots); ++i;)
 {
     global.plots[i] = instance_find(Plots,i);
@@ -63,7 +63,6 @@ global.plots[num].full = true
 
 for (var i = 0; i < instance_number(Plots); ++i;)
 {
-	// default values
     global.plots[i] = instance_find(Plots,i);
 	global.plots[i].crop = undefined
 	global.plots[i].cropName = ""

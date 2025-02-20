@@ -1,5 +1,6 @@
 function save_game(){
 for (var i = 0; i < array_length(global.invSprites); i++) {
+// inventory saving
 
 savedItem[i] = global.invSprites[i].item
 savedAmount[i] = global.invSprites[i].amount
@@ -7,11 +8,13 @@ savedFull[i] = global.invSprites[i].full
 }
 for (var i = 0; i < array_length(global.plots); i++) {
 if (!is_undefined(global.plots[i].cropName)){
+// crop saving (duh)
 savedPlotCrop[i] = global.plots[i].cropName
 savedPlotFull[i] = global.plots[i].full
 }}
 if (variable_global_exists("babypotato")) {
 for (var i = 0; i < array_length(global.babypotato); i++) {
+// my spagethi code for crop saving (its terrible but im too lazy to fix it)
 savedPotatoTimer[i] = global.babypotato[i].timer
 }
 if (array_length(global.babypotato)) < 1 {
@@ -34,6 +37,7 @@ savedCherryTimer = undefined
 
 if (variable_global_exists("BeeHive")) {
 for (var i = 0; i < array_length(global.BeeHive); i++) {
+// honey/bee saving
 savedBeeHoney[i] = global.BeeHive[i].honey
 savedBees[i] = global.BeeHive[i].bees
 }}
@@ -62,10 +66,12 @@ if (!is_undefined(savedMidCherryTimer)){
 if (array_length(savedMidCherryTimer) < array_length(global.plots)){
 for (var i = array_length(savedMidCherryTimer); i < array_length(global.plots); i++) {
 savedMidCherryTimer[i] = 0
+// end of spagethi code for crop saving
 }}}
 
 
 var _struct = {
+	// the contents of what gets saved goes here
 	invSelected: global.inventorySelected,
 	savedItem: savedItem,
 	savedAmount: savedAmount,
@@ -79,13 +85,13 @@ var _struct = {
 	savedBees: savedBees
 };
 var _string = json_stringify(_struct);
-var _file = file_text_open_write("save.txt")
+var _file = file_text_open_write("save.txt") 
 file_text_write_string(_file, _string)
 file_text_close(_file)
 }
 
 function load_game(){
-	
+	// pretty simple, grabs the file from earlier and then loads it into global variables
 	if(file_exists("save.txt")){
 	var _file = file_text_open_read("save.txt")
 	var _json = file_text_read_string(_file)

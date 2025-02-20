@@ -1,3 +1,4 @@
+// runs code for key press 2 based on who owns the current prompt box
 if (global.dialOwner = "Shopkeeper"){
 	if (global.promptNum = "start"){
 	global.promptNum = "sell"

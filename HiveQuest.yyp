@@ -56,6 +56,7 @@
     {"id":{"name":"DecoObj1","path":"objects/DecoObj1/DecoObj1.yy",},},
     {"id":{"name":"DialogueBox","path":"objects/DialogueBox/DialogueBox.yy",},},
     {"id":{"name":"Farmer","path":"objects/Farmer/Farmer.yy",},},
+    {"id":{"name":"FlowerPlot","path":"objects/FlowerPlot/FlowerPlot.yy",},},
     {"id":{"name":"harvestHoney","path":"objects/harvestHoney/harvestHoney.yy",},},
     {"id":{"name":"HoneycombInv","path":"objects/HoneycombInv/HoneycombInv.yy",},},
     {"id":{"name":"MiddleCherry","path":"objects/MiddleCherry/MiddleCherry.yy",},},

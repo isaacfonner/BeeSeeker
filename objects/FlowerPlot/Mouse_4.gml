@@ -1,6 +1,6 @@
+// still wip, currently the code is exactly the same as crop plots so just read those comments
 var placeX = x
 var placeY = y
-// these variables are useless idk why i made them tbh but i dont want to switch every refrence of them to just use x and y
 var invnum = global.inventorySelected 
 for (var i = 0; i < array_length(global.plots); i++) {
     if (global.plots[i].id == id) {
@@ -10,7 +10,6 @@ for (var i = 0; i < array_length(global.plots); i++) {
 }
 
 if (global.plots[num].full = false){
-	// code for planting cherries
 if (global.invSprites[invnum].item = "CherrySeeds"){
 if (global.invSprites[invnum].amount > 0){
 global.invSprites[invnum].amount -= 1
@@ -25,7 +24,6 @@ save_game()
 }
 }
 if (global.invSprites[invnum].item = "PotatoSeeds"){
-	// code for planting potatos
 if (global.invSprites[invnum].amount > 0){
 global.invSprites[invnum].amount -= 1
 global.plots[num].cropName = "BabyPotato"

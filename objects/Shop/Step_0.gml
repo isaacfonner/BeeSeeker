@@ -5,3 +5,5 @@ if (global.saveCooldown > 190){
 }
 
 global.saveCooldown++
+
+// saves the game every so often - see create script

@@ -1,4 +1,5 @@
 function save_inv(){
+	// this is the same as savegame but it ignores stuff like honey and crops - useful for when inside rooms without the crops or beehive
 for (var i = 0; i < array_length(global.invSprites); i++) {
 	if (!is_undefined(global.invSprites[i].item)){
 savedItem[i] = global.invSprites[i].item

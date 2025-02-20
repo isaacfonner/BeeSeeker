@@ -1,4 +1,4 @@
-
+// same code as babycherry go read those comments
 for (var i = 0; i < array_length(global.middlecherry); i++) {
     if (global.middlecherry[i].id == id) {
     var num = i

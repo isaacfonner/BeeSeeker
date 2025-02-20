@@ -3,10 +3,11 @@ for (var i = 0; i < instance_number(BeeHive); ++i;)
 {
     global.BeeHive[i] = instance_find(BeeHive,i);
 	var num = i
+	// figure out which one it is :o
 }
 
 
-if(file_exists("save.txt")){
+if(file_exists("save.txt")){ //save loading
 	load_game()
 bees = global.savedBees[num]
 if (variable_global_exists("truehoney")){
@@ -21,8 +22,8 @@ honey = global.savedBeeHoney[num]
 	}
 timer = 0
 } else {
-
-bees = 2
+// default stuffs
+bees = 2 
 honey = 0
 timer = 0
 }

@@ -1,3 +1,4 @@
+// rendering the number of items
 draw_set_font(-1);
 draw_self()
 if (is_undefined(global.invSprites)){
@@ -18,3 +19,4 @@ draw_set_color(c_black);
 draw_text_transformed(x+75, y+20, string(global.invSprites[num].amount), 1.5, 1.5, 0);
 }
 }
+

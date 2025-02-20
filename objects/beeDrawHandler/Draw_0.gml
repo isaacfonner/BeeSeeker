@@ -1,3 +1,4 @@
+// some debug text, prolly wont make it to the final version
 draw_set_font(Oswald);
 draw_text_transformed(380, 20, string_concat("Beehive #", global.BeeHiveNum) , 2, 2, 0);
 draw_set_font(Oswald);

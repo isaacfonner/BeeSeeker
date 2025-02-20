@@ -1,3 +1,4 @@
+// still wip, currently the code is exactly the same as crop plots so just read those comments
 for (var i = 0; i < array_length(global.plots); i++) {
     if (global.plots[i].id == id) {
     var num = i

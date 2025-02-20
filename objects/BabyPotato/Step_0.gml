@@ -1,4 +1,4 @@
-
+// exact same code as babycherry, go look at the comments there plz
 for (var i = 0; i < array_length(global.babypotato); i++) {
     if (global.babypotato[i].id == id) {
     var num = i

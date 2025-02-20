@@ -14,3 +14,5 @@ pickupItem("Coin")
 pickupItem("Coin")
 }
 }
+
+// button no longer being used, ignore it

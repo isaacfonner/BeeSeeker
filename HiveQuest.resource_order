@@ -25,6 +25,7 @@
     {"name":"CherryButton","order":5,"path":"objects/CherryButton/CherryButton.yy",},
     {"name":"CherrySeedsBuyIcon","order":3,"path":"objects/CherrySeedsBuyIcon/CherrySeedsBuyIcon.yy",},
     {"name":"DialogueBox","order":21,"path":"objects/DialogueBox/DialogueBox.yy",},
+    {"name":"FlowerPlot","order":23,"path":"objects/FlowerPlot/FlowerPlot.yy",},
     {"name":"harvestHoney","order":13,"path":"objects/harvestHoney/harvestHoney.yy",},
     {"name":"HoneycombInv","order":14,"path":"objects/HoneycombInv/HoneycombInv.yy",},
     {"name":"Object28","order":9,"path":"objects/Object28/Object28.yy",},
