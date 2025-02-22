@@ -5,3 +5,5 @@ honey += 0.01
 show_debug_message(honey)
 timer = 0
 }
+
+global.HoneyCount = honey

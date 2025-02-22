@@ -11,6 +11,8 @@ for (var i = 0; i < array_length(global.plots); i++) {
 savedPlotCrop[i] = global.savedPlotCrop[i]
 savedPlotFull[i] = global.savedPlotFull[i]
 }
+
+honeyarray = [global.HoneyCount, 69420]
 var _struct = {
 	invSelected: global.inventorySelected,
 	savedItem: savedItem,
@@ -21,7 +23,7 @@ var _struct = {
 	savedPotatoTimer: global.savedPotatoTimer,
 	savedCherryTimer: global.savedCherryTimer,
 	savedMidCherryTimer: global.savedMidCherryTimer,
-	savedBeeHoney: global.savedBeeHoney,
+	savedBeeHoney: honeyarray,
 	savedBees: global.savedBees
 };
 var _string = json_stringify(_struct);
